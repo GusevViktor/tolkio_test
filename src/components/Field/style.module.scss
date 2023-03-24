@@ -1,0 +1,36 @@
+
+.wrap {
+}
+.input {
+  display: block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 60px;
+  padding: 16px;
+  border: 1px solid #ff6343;
+  background: white;
+  border-radius: 5px;
+  color: #959595;
+  font-size: 16px;
+  caret-color: #959595;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #d38368;
+  }
+  &:active {
+    border: 1px solid #f0c6a6;
+  }
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border: 1px solid #9f45ad;
+  }
+}
+
+.label {
+  display: block;
+  color: #959595;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
